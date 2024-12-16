@@ -1,6 +1,7 @@
 # Alt+A for a new file, Shift+Space to run
 from functions import get_todos, write_todos
 import time
+import math
 
 now = time.strftime("%b %d, %Y %I:%M%p")
 print("It is", now)
